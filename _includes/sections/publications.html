@@ -24,7 +24,9 @@
           {% if paper.code %}
             [<a href="{{paper.code}}">code</a>]
           {% endif %}
-          <br>
+          {% if forloop.last == false %}
+            <br>
+          {% endif %}
         </li>
       {% endfor %}
     </ol>
