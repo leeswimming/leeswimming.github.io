@@ -1,0 +1,9 @@
+- title: "Montage: A Neural Network Language Model-Guided JavaScript Fuzzer (to appear)"
+  authors: <strong>Suyoung Lee</strong>, HyungSeok Han, Sang Kil Cha, and Sooel Son
+  venue: In <em>proceedings of the USENIX Security Symposium</em>
+  year: 2020
+
+- title: "FUSE: Finding File Upload Bugs via Penetration Testing (to appear)"
+  authors: Taekjin Lee, Seongil Wi, <strong>Suyoung Lee</strong>, and Sooel Son
+  venue: In <em>proceedings of the Network and Distributed System Security Symposium</em>
+  year: 2020

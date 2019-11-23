@@ -1,0 +1,25 @@
+<div class="user-details">
+  <h1> Education </h1>
+</div>
+
+<div class="row">
+  <div class="col">
+    <table>
+      <tbody>
+      {% for career in site.data.education %}
+        <tr>
+          <td>
+            <strong>{{career.date}}</strong>
+          </td>
+          <td>
+            {{career.descr}}, {{career.school}}
+            {% if career.advisor %}
+              (Advisor: <a href="{{career.link}}">{{career.advisor}}</a>)
+            {% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>

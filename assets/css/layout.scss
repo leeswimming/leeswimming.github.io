@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "UTF-8";
+
+// Mixins
+@import "components/mixins";
+
+// Variables
+@import "components/variables";
+
+// Components
+@import "components/global";
+@import "components/grid";
+
+// Pages styling
+@import "pages/layout";
+@import "pages/post";

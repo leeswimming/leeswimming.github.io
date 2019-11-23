@@ -1,0 +1,36 @@
+# Site settings
+title: Suyoung Lee
+url: https://leeswimming.com
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+
+timezone:          Asia/Seoul
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+sass:
+  sass_dir: _sass
+
+# User settings
+username: Suyoung Lee
+user_title: Security Researcher
+user_description: >
+  I am a Ph.D. student @KAIST WSP Lab. My primary research interests lie in the
+  area of finding, analyzing, and patching software vulnerabilities.  In
+  particular, I am interested in automating these steps by leveraging recent
+  advances in machine learning. Thus, the intersection of various fields
+  including but not limited to computer security, software engineering, and
+  machine learning is of my particular interest.
+email: suyoung.lee@kaist.ac.kr
+twitter: leeswimming
+github: leeswimming
+facebook: leeswimming
+# gplus_username:  lorem_ipsum
