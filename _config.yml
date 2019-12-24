@@ -24,12 +24,13 @@ sass:
 username: Suyoung Lee
 user_title: Security Researcher
 user_description: >
-  I am a Ph.D. student @KAIST WSP Lab. My primary research interests lie in the
-  area of finding, analyzing, and patching software vulnerabilities.  In
-  particular, I am interested in automating these steps by leveraging recent
-  advances in machine learning. Thus, the intersection of various fields
-  including but not limited to computer security, software engineering, and
-  machine learning is of my particular interest.
+  I am a Ph.D. student <a href="https://wsp-lab.github.io/">@KAIST WSP Lab</a>.
+  My primary research interests lie in the area of finding, analyzing, and
+  patching software vulnerabilities.  In particular, I am interested in
+  automating these steps by leveraging recent advances in machine learning.
+  Thus, the intersection of various fields including but not limited to computer
+  security, software engineering, and machine learning is of my particular
+  interest.
 email: suyoung.lee@kaist.ac.kr
 twitter: leeswimming
 github: leeswimming
