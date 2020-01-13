@@ -16,16 +16,16 @@
             [<a href="{{paper.link}}">paper</a>]
           {% endif %}
           {% if paper.bib %}
-            [<a href={{paper.bib}}">bib</a>]
+            [<a href="{{paper.bib}}">bib</a>]
           {% endif %}
           {% if paper.slides %}
-            [<a href={{paper.slides}}">slides</a>]
+            [<a href="{{paper.slides}}">slides</a>]
           {% endif %}
           {% if paper.code %}
             [<a href="{{paper.code}}">code</a>]
           {% endif %}
           {% if forloop.last == false %}
-            <br>
+            <br><br>
           {% endif %}
         </li>
       {% endfor %}
