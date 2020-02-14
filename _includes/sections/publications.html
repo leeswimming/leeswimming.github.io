@@ -13,16 +13,16 @@
           {{paper.authors}} <br>
           {{paper.venue}}, {{paper.year}} <br>
           {% if paper.link %}
-            [<a href="{{paper.link}}">paper</a>]
+            [<a href="{{paper.link}}" target="_blank">paper</a>]
           {% endif %}
           {% if paper.bib %}
-            [<a href="{{paper.bib}}">bib</a>]
+            [<a href="{{paper.bib}}" target="_blank">bib</a>]
           {% endif %}
           {% if paper.slides %}
-            [<a href="{{paper.slides}}">slides</a>]
+            [<a href="{{paper.slides}}" target="_blank">slides</a>]
           {% endif %}
           {% if paper.code %}
-            [<a href="{{paper.code}}">code</a>]
+            [<a href="{{paper.code}}" target="_blank">code</a>]
           {% endif %}
           {% if forloop.last == false %}
             <br><br>
