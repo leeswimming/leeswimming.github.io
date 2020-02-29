@@ -6,7 +6,10 @@
   bib: /bibtex/lee-sec20.bib
   code: https://github.com/WSP-LAB/Montage
 
-- title: "FUSE: Finding File Upload Bugs via Penetration Testing (to appear)"
+- title: "FUSE: Finding File Upload Bugs via Penetration Testing"
   authors: Taekjin Lee, Seongil Wi, <strong>Suyoung Lee</strong>, and Sooel Son.
   venue: In <em>proceedings of the Network and Distributed System Security Symposium</em>
   year: 2020
+  link: /papers/lee-ndss20.pdf
+  bib: /bibtex/lee-ndss20.bib
+  code: https://github.com/WSP-LAB/FUSE
