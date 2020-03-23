@@ -5,6 +5,7 @@
   link: /papers/lee-sec20.pdf
   bib: /bibtex/lee-sec20.bib
   code: https://github.com/WSP-LAB/Montage
+  data: https://github.com/WSP-LAB/js-test-suite
 
 - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
   authors: Taekjin Lee, Seongil Wi, <strong>Suyoung Lee</strong>, and Sooel Son.

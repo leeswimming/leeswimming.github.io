@@ -24,6 +24,9 @@
           {% if paper.code %}
             [<a href="{{paper.code}}" target="_blank">code</a>]
           {% endif %}
+          {% if paper.data %}
+            [<a href="{{paper.data}}" target="_blank">data</a>]
+          {% endif %}
           {% if forloop.last == false %}
             <br><br>
           {% endif %}
