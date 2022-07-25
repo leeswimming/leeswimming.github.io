@@ -1,8 +1,7 @@
 - title: "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
   authors: <strong>Suyoung Lee</strong>, Wonho Song, Suman Jana, Meeyoung Cha, and Sooel Son.
-  venue: arXiv:2106.10147
-  year: 2021
-  link: https://arxiv.org/abs/2106.10147
+  venue: <em>IEEE Transactions on Dependable and Secure Computing</em>
+  year: 2022 (to appear)
 
 - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
   authors: <strong>Suyoung Lee</strong>, HyungSeok Han, Sang Kil Cha, and Sooel Son.
