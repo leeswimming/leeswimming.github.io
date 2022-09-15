@@ -1,3 +1,11 @@
+- title: "Learning to Generate Inversion-Resistant Model Explanations"
+  authors: Hoyong Jeong, <strong>Suyoung Lee</strong>, Sung Ju Hwang, and Sooel Son.
+  venue: In <em>proceedings of the Advances in Neural Information Processing Systems</em>
+  year: 2022 (to appear)
+  link:
+  bib:
+  code:
+
 - title: "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
   authors: <strong>Suyoung Lee</strong>, Wonho Song, Suman Jana, Meeyoung Cha, and Sooel Son.
   venue: <em>IEEE Transactions on Dependable and Secure Computing</em>
