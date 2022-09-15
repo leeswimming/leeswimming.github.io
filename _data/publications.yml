@@ -1,6 +1,6 @@
 - title: "Learning to Generate Inversion-Resistant Model Explanations"
   authors: Hoyong Jeong, <strong>Suyoung Lee</strong>, Sung Ju Hwang, and Sooel Son.
-  venue: In <em>proceedings of the Advances in Neural Information Processing Systems</em>
+  venue: In <em>Proceedings of the Advances in Neural Information Processing Systems</em>
   year: 2022 (to appear)
   link:
   bib:
@@ -16,7 +16,7 @@
 
 - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
   authors: <strong>Suyoung Lee</strong>, HyungSeok Han, Sang Kil Cha, and Sooel Son.
-  venue: In <em>proceedings of the USENIX Security Symposium</em>
+  venue: In <em>Proceedings of the USENIX Security Symposium</em>
   year: 2020
   link: /papers/lee-sec20.pdf
   bib: /bibtex/lee-sec20.bib
@@ -25,7 +25,7 @@
 
 - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
   authors: Taekjin Lee, Seongil Wi, <strong>Suyoung Lee</strong>, and Sooel Son.
-  venue: In <em>proceedings of the Network and Distributed System Security Symposium</em>
+  venue: In <em>Proceedings of the Network and Distributed System Security Symposium</em>
   year: 2020
   link: /papers/lee-ndss20.pdf
   bib: /bibtex/lee-ndss20.bib
