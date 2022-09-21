@@ -1,22 +1,25 @@
 - title: "Learning to Generate Inversion-Resistant Model Explanations"
-  authors: Hoyong Jeong, <strong>Suyoung Lee</strong>, Sung Ju Hwang, and Sooel Son.
-  venue: In <em>Proceedings of the Advances in Neural Information Processing Systems (NeurIPS)</em>
+  authors: Hoyong Jeong, Suyoung Lee, Sung Ju Hwang, and Sooel Son.
+  venue: <strong>NeurIPS 2022</strong>
+  proceedings: In <em>Proceedings of the Advances in Neural Information Processing Systems</em>
   year: 2022 (to appear)
   link:
   bib:
   code:
 
 - title: "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
-  authors: <strong>Suyoung Lee</strong>, Wonho Song, Suman Jana, Meeyoung Cha, and Sooel Son.
-  venue: <em>IEEE Transactions on Dependable and Secure Computing (TDSC)</em>
+  authors: Suyoung Lee, Wonho Song, Suman Jana, Meeyoung Cha, and Sooel Son.
+  venue: TDSC 2022
+  proceedings: <em>IEEE Transactions on Dependable and Secure Computing</em>
   year: 2022 (to appear)
   link:
   bib:
   code:
 
 - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
-  authors: <strong>Suyoung Lee</strong>, HyungSeok Han, Sang Kil Cha, and Sooel Son.
-  venue: In <em>Proceedings of the USENIX Security Symposium</em>
+  authors: Suyoung Lee, HyungSeok Han, Sang Kil Cha, and Sooel Son.
+  venue: <strong>USENIX Security 2020</strong>
+  proceedings: In <em>Proceedings of the USENIX Security Symposium</em>
   year: 2020
   link: /papers/lee-sec20.pdf
   bib: /bibtex/lee-sec20.bib
@@ -24,8 +27,9 @@
   data: https://github.com/WSP-LAB/js-test-suite
 
 - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
-  authors: Taekjin Lee, Seongil Wi, <strong>Suyoung Lee</strong>, and Sooel Son.
-  venue: In <em>Proceedings of the Network and Distributed System Security Symposium (NDSS)</em>
+  authors: Taekjin Lee, Seongil Wi, Suyoung Lee, and Sooel Son.
+  venue: <strong>NDSS 2020</strong>
+  proceedings: In <em>Proceedings of the Network and Distributed System Security Symposium</em>
   year: 2020
   link: /papers/lee-ndss20.pdf
   bib: /bibtex/lee-ndss20.bib
