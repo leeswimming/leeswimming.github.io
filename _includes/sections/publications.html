@@ -27,7 +27,10 @@
             [<a href="{{paper.data}}" target="_blank">data</a>]
           {% endif %}
           {% if forloop.last == false %}
-            <br><br>
+            <br>
+            {% if paper.link %}
+              <br>
+            {% endif %}
           {% endif %}
         </li>
       {% endfor %}
