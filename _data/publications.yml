@@ -8,7 +8,8 @@
 - title: "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
   authors: Suyoung Lee, Wonho Song, Suman Jana, Meeyoung Cha, and Sooel Son.
   venue: TDSC 2022
-  link:
+  link: /papers/lee-tdsc22.pdf
+  sup: /papers/lee-tdsc22-sup.pdf
   bib:
   code:
 

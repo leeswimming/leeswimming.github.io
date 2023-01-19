@@ -26,6 +26,9 @@
           {% if paper.data %}
             [<a href="{{paper.data}}" target="_blank">data</a>]
           {% endif %}
+          {% if paper.sup %}
+            [<a href="{{paper.sup}}" target="_blank">supplemental materials</a>]
+          {% endif %}
           {% if forloop.last == false %}
             <br>
             {% if paper.link %}
