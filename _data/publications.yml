@@ -1,9 +1,10 @@
 - title: "Learning to Generate Inversion-Resistant Model Explanations"
   authors: Hoyong Jeong, Suyoung Lee, Sung Ju Hwang, and Sooel Son.
   venue: <strong>NeurIPS 2022</strong>
-  link:
+  link: /papers/jeong-neurips22.pdf
+  sup: /papers/jeong-neurips22-sup.pdf
   bib:
-  code:
+  code: https://github.com/WSP-LAB/GNIME
 
 - title: "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
   authors: Suyoung Lee, Wonho Song, Suman Jana, Meeyoung Cha, and Sooel Son.
