@@ -1,5 +1,9 @@
+- title: "RICC: Robust Collective Classification of Sybil Accounts"
+  authors: Dongwon Shin*, <strong>Suyoung Lee*</strong>, and Sooel Son.
+  venue: <strong>WWW 2023</strong>
+
 - title: "Learning to Generate Inversion-Resistant Model Explanations"
-  authors: Hoyong Jeong, Suyoung Lee, Sung Ju Hwang, and Sooel Son.
+  authors: Hoyong Jeong, <strong>Suyoung Lee</strong>, Sung Ju Hwang, and Sooel Son.
   venue: <strong>NeurIPS 2022</strong>
   link: /papers/jeong-neurips22.pdf
   sup: /papers/jeong-neurips22-sup.pdf
@@ -7,7 +11,7 @@
   code: https://github.com/WSP-LAB/GNIME
 
 - title: "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
-  authors: Suyoung Lee, Wonho Song, Suman Jana, Meeyoung Cha, and Sooel Son.
+  authors: <strong>Suyoung Lee</strong>, Wonho Song, Suman Jana, Meeyoung Cha, and Sooel Son.
   venue: TDSC 2022
   link: /papers/lee-tdsc22.pdf
   sup: /papers/lee-tdsc22-sup.pdf
@@ -15,7 +19,7 @@
   code:
 
 - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
-  authors: Suyoung Lee, HyungSeok Han, Sang Kil Cha, and Sooel Son.
+  authors: <strong>Suyoung Lee</strong>, HyungSeok Han, Sang Kil Cha, and Sooel Son.
   venue: <strong>USENIX Security 2020</strong>
   link: /papers/lee-sec20.pdf
   bib: /bibtex/lee-sec20.bib
@@ -23,7 +27,7 @@
   data: https://github.com/WSP-LAB/js-test-suite
 
 - title: "FUSE: Finding File Upload Bugs via Penetration Testing"
-  authors: Taekjin Lee, Seongil Wi, Suyoung Lee, and Sooel Son.
+  authors: Taekjin Lee, Seongil Wi, <strong>Suyoung Lee</strong>, and Sooel Son.
   venue: <strong>NDSS 2020</strong>
   link: /papers/lee-ndss20.pdf
   bib: /bibtex/lee-ndss20.bib
