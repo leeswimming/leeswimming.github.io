@@ -7,7 +7,7 @@
   venue: <strong>NeurIPS 2022</strong>
   link: /papers/jeong-neurips22.pdf
   sup: /papers/jeong-neurips22-sup.pdf
-  bib:
+  bib: /bibtex/jeong-neurips22.bib
   code: https://github.com/WSP-LAB/GNIME
 
 - title: "Evaluating the Robustness of Trigger Set-Based Watermarks Embedded in Deep Neural Networks"
