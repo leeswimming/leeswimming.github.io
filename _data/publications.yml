@@ -7,6 +7,7 @@
   venue: <strong>WWW 2023</strong>
   link: /papers/shin-www23.pdf
   bib: /bibtex/shin-www23.bib
+  code: https://github.com/WSP-LAB/RICC
 
 - title: "Learning to Generate Inversion-Resistant Model Explanations"
   authors: Hoyong Jeong, <strong>Suyoung Lee</strong>, Sung Ju Hwang, and Sooel Son.
