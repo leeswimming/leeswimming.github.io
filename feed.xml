@@ -15,8 +15,6 @@ layout: null
       {% if paper.link %}
       <item>
         <title>{{ paper.title | xml_escape }}</title>
-        <description>{{ xml_escape }}</description>
-        <pubDate>{{ paper.date | date_to_rfc822 }}</pubDate>
         <link>{{ paper.link | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ paper.link | prepend: site.url }}</guid>
       </item>
