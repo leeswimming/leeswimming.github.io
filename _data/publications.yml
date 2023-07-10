@@ -1,6 +1,9 @@
 - title: "Margin-based Neural Network Watermarking"
   authors: Byungjoo Kim, <strong>Suyoung Lee</strong>, Seanie Lee, Sooel Son, and Sung Ju Hwang.
   venue: <strong>ICML 2023</strong>
+  link: https://proceedings.mlr.press/v202/kim23o/kim23o.pdf
+  bib: /bibtex/kim-icml23.bib
+  code: https://github.com/matbambbang/margin-based-watermarking
 
 - title: "RICC: Robust Collective Classification of Sybil Accounts"
   authors: Dongwon Shin*, <strong>Suyoung Lee*</strong>, and Sooel Son.
