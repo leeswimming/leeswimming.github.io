@@ -25,7 +25,7 @@
   venue: TDSC 2022
   link: /papers/lee-tdsc22.pdf
   sup: /papers/lee-tdsc22-sup.pdf
-  bib:
+  bib: /bibtex/lee-tdsc22.bib
   code:
 
 - title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
