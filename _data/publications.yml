@@ -1,6 +1,9 @@
-- title: "You Only Perturb Once: Bypassing (Robust) Ad-Blockers Using Universal Adversarial Perturbations (To appear)"
+- title: "You Only Perturb Once: Bypassing (Robust) Ad-Blockers Using Universal Adversarial Perturbations"
   authors: Dongwon Shin, <strong>Suyoung Lee</strong>, Sanghyun Hong, and Sooel Son.
   venue: ACSAC 2024
+  link: /papers/shin-acsac24.pdf
+  bib: /bibtex/shin-acsac24.bib
+  code:
 
 - title: "Margin-based Neural Network Watermarking"
   authors: Byungjoo Kim, <strong>Suyoung Lee</strong>, Seanie Lee, Sooel Son, and Sung Ju Hwang.
