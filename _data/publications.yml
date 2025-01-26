@@ -3,7 +3,7 @@
   venue: ACSAC 2024
   link: /papers/shin-acsac24.pdf
   bib: /bibtex/shin-acsac24.bib
-  code:
+  code: https://github.com/WSP-LAB/YOPO
 
 - title: "Margin-based Neural Network Watermarking"
   authors: Byungjoo Kim, <strong>Suyoung Lee</strong>, Seanie Lee, Sooel Son, and Sung Ju Hwang.
