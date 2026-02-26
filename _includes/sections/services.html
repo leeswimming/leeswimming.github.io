@@ -1,0 +1,22 @@
+<div class="user-details">
+  <h1> Professional Services </h1>
+</div>
+
+<div class="row">
+  <div class="col">
+    <table>
+      <tbody>
+      {% for service in site.data.services %}
+        <tr>
+          <td>
+            <strong>{{service.year}}</strong>
+          </td>
+          <td>
+            {{service.descr}}
+          </td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
