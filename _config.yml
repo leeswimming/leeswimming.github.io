@@ -1,6 +1,6 @@
 # Site settings
 title: Suyoung Lee
-description: Suyoung Lee / 이수영. Ph.D. student @KAIST WSP Lab.
+description: Suyoung Lee / 이수영. Postdoctoral researcher @KAIST WSP Lab.
 url: https://leeswimming.com
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 
@@ -24,14 +24,12 @@ sass:
 username: Suyoung Lee
 user_title: Security Researcher
 user_description: >
-  I am a Ph.D. student <a href="https://wsp-lab.github.io/" target="_blank">
-  @KAIST WSP Lab</a>. My primary research interests lie in the area of finding,
-  analyzing, and patching software vulnerabilities. In particular, I am
-  interested in automating these steps by leveraging recent advances in machine
-  learning. Thus, the intersection of various fields including but not limited
-  to computer security, software engineering, and machine learning is of my
-  particular interest. I'm always happy to hear from you. For all inquiries, you
-  can reach me at: <a href="mailto:suyoung.lee@kaist.ac.kr">suyoung.lee@kaist.ac.kr</a>
+  I am a postdoctoral researcher <a href="https://wsp-lab.github.io/" target="_blank">
+  @KAIST WSP Lab</a>. My primary research interests lie at the intersection of
+  artificial intelligence (AI) and computer security. In particular, I am
+  interested in securing AI-based systems, web browsers, and web applications.
+  I'm always happy to hear from you. For all inquiries, you can reach me at:
+  <a href="mailto:suyoung.lee@kaist.ac.kr">suyoung.lee@kaist.ac.kr</a>
 email: suyoung.lee@kaist.ac.kr
 github: leeswimming
 linkedin: suyoung-lee-669928152
