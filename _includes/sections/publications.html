@@ -11,7 +11,10 @@
           <strong>
             {{paper.title}} <br>
           </strong>
-          {{paper.authors}} {{paper.venue}}<br>
+          {{paper.authors}}
+          <strong>
+            {{paper.venue}} <br>
+          </strong>
           {% if paper.link %}
             [<a href="{{paper.link}}" target="_blank">paper</a>]
           {% endif %}
