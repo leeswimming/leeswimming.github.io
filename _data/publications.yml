@@ -2,9 +2,12 @@
   authors: Hyunjoon Lee*, <strong>Suyoung Lee*</strong>, Heiko Kiesel, and Sooel Son.
   venue: ACM CCS 2026
 
-- title: "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions (To appear)"
+- title: "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions"
   authors: <strong>Suyoung Lee</strong>, Seongho Keum, Changoo Lee, Dongwon Shin, Sanghyun Hong, Byoungyoung Lee, and Sooel Son.
   venue: IEEE S&P 2026
+  link: /papers/lee-sp26.pdf
+  bib: /bibtex/lee-sp26.bib
+  code: https://github.com/WSP-LAB/Site-Isolation-Is-Dead
 
 - title: "You Only Perturb Once: Bypassing (Robust) Ad-Blockers Using Universal Adversarial Perturbations"
   authors: Dongwon Shin, <strong>Suyoung Lee</strong>, Sanghyun Hong, and Sooel Son.
