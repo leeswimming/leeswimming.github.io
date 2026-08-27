@@ -115,9 +115,9 @@ blog_name:  # blog_name will be displayed in your blog page
 blog_description:
 permalink: /blog/:year/:title/
 
-# Pagination
+# Pagination (blog is unused)
 pagination:
-  enabled: true
+  enabled: false
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
@@ -177,6 +177,10 @@ kramdown:
       line_numbers: false
       start_line: 1
 
+# Sass (silence deprecation warnings from the theme's legacy @import usage)
+sass:
+  silence_deprecations: ['import', 'global-builtin', 'color-functions']
+
 # Includes & excludes
 include: ['_pages']
 exclude:
@@ -217,8 +221,6 @@ defaults:
 
 jekyll-minifier:
   exclude: ['robots.txt']
-  uglifier_args:
-    harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -298,7 +300,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: true # enables responsive images for your site (recomended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # disabled: no responsive images used, and it needs the `convert` binary
   widths:
     - 480
     - 800

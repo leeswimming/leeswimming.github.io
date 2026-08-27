@@ -11,20 +11,18 @@ $orange-color:        #F29105 !default;
 $blue-color:          #0076df !default;
 $blue-color-dark:     #00369f !default;
 $cyan-color:          #16A34A !default; // site theme color (deep green)
-$light-cyan-color:    lighten($cyan-color, 25%);
 $green-color:         #00ab37 !default;
 $green-color-lime:    #B7D12A !default;
 $green-color-dark:    #009f06 !default;
 $green-color-light:   #ddffdd !default;
 $green-color-bright:  #11D68B !default;
 $purple-color:        #B509AC !default; // site theme color (al-folio light-mode purple)
-$light-purple-color:  lighten($purple-color, 25%);
 $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 
 $grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
+$grey-color-light:    #e8e8e8; // lighten(#828282, 40%)
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
 
