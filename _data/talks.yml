@@ -1,0 +1,29 @@
+# Talks shown on the about page and the publications page.
+# category: "academic" or "industry" — each renders under its own heading.
+# Required for ordering: date (YYYY-MM-DD) — talks are listed newest first.
+# selected: true — shown in "Selected talks" on the main page.
+# Optional fields: location, presenter, slides (URL), video (URL),
+# type: "invited".
+# The venue's first word (e.g. "UNIST") is shown as the badge.
+
+- title: "When New Browser Features Become New Attack Surfaces"
+  venue: "UNIST CSE590 Graduate Seminar"
+  year: 2026
+  month: Sep
+  date: 2026-09-09
+  location: "Ulsan, South Korea"
+  presenter: Suyoung Lee
+  category: academic
+  type: invited
+  selected: true
+
+- title: "New Security Threats in Agentic Browsers and Extensions"
+  venue: "KIISC AI Security Workshop 2026"
+  year: 2026
+  month: Jul
+  date: 2026-07-14
+  location: "Vivaldi Park, Hongcheon, South Korea"
+  presenter: Suyoung Lee
+  category: academic
+  type: invited
+  selected: true

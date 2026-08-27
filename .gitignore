@@ -1,8 +1,7 @@
+*.swo
 *.swp
-*.gem
-.bundle
-.sass-cache
-_site
-Gemfile.lock
 .DS_Store
-node_modules
+.jekyll-cache/
+_site/
+vendor/
+.bundle/

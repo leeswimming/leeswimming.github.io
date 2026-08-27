@@ -1,0 +1,56 @@
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D., Graduate School of Information Security
+      institution: KAIST, Daejeon, South Korea
+      year: 2019.09 - 2026.02
+      description:
+        - "Advisor: Prof. Sooel Son"
+    - title: M.S., Graduate School of Information Security
+      institution: KAIST, Daejeon, South Korea
+      year: 2017.09 - 2019.08
+      description:
+        - "Advisor: Prof. Sooel Son"
+    - title: B.S., Computer Engineering
+      institution: Sungkyunkwan University, Suwon, South Korea
+      year: 2013.03 - 2017.08
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Postdoctoral Researcher
+      institution: SPIN Group, UMass Amherst, Amherst, MA, USA
+      year: 2026.10 - Current
+      description:
+        - "Advisor: Prof. Amir Houmansadr"
+    - title: Postdoctoral Researcher
+      institution: WSP Lab, KAIST, Daejeon, South Korea
+      year: 2026.03 - 2026.09
+      description:
+        - "Advisor: Prof. Sooel Son"
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2019
+      items:
+        - MSRC's 2018-2019 Most Valuable Security Researchers
+    - year: 2015
+      items:
+        - Kwanjeong Educational Foundation Scholarship
+    - year: 2014
+      items:
+        - Distinguished Freshman Award
+
+- title: Academic Services
+  type: time_table
+  contents:
+    - year: 2027
+      items:
+        - Program Committee (USENIX Security, NDSS)
+    - year: 2026
+      items:
+        - Program Committee (WWW), Journal Reviewer (TWEB)
+    - year: 2023
+      items:
+        - Journal Reviewer (TOSEM)

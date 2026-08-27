@@ -1,8 +1,0 @@
-- cve: CVE-2019-8594
-  descr: Arbitrary code execution in JavaSriptCore of Safari
-
-- cve: CVE-2019-0923
-  descr: Memory corruption in ChakraCore of Edge
-
-- cve: CVE-2019-0860
-  descr: Arbitrary code execution in ChakraCore of Edge (reward $5,000)
