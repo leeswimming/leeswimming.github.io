@@ -8,35 +8,34 @@
               {%- assign item_year = item.date | date: '%Y' -%}
               {%- if item_year != prev_year %}
               {%- unless forloop.first %}
-              </table>
-              </div>
+              </ol>
               {%- endunless %}
               <h2 class="bibliography">{{ item_year }}</h2>
-              <div class="table-responsive">
-              <table class="table table-sm table-borderless">
+              <ol class="bibliography">
               {%- assign prev_year = item_year -%}
               {%- endif %}
-                <tr>
-                  <th scope="row">
-                    <span class="badge news-badge">
-                      {{- item.date | date: "%b %Y" -}}
-                    </span>
-                  </th>
-                  <td>
-                    {% if item.inline -%}
-                      {{ item.content | remove: '<p>' | remove: '</p>'
-                         | emojify }}
-                    {%- else -%}
-                      <a class="news-title"
-                         href="{{ item.url | relative_url }}">
-                        {{- item.title -}}
-                      </a>
-                    {%- endif %}
-                  </td>
-                </tr>
+                <li>
+                  <div class="row">
+                    <div class="col-sm-2 abbr">
+                      <span class="badge news-badge">
+                        {{- item.date | date: "%b %Y" -}}
+                      </span>
+                    </div>
+                    <div class="col-sm-8">
+                      {% if item.inline -%}
+                        {{ item.content | remove: '<p>' | remove: '</p>'
+                           | emojify }}
+                      {%- else -%}
+                        <a class="news-title"
+                           href="{{ item.url | relative_url }}">
+                          {{- item.title -}}
+                        </a>
+                      {%- endif %}
+                    </div>
+                  </div>
+                </li>
               {%- if forloop.last %}
-              </table>
-              </div>
+              </ol>
               {%- endif %}
             {%- endfor %}
             {% else %}

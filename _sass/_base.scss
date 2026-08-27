@@ -331,10 +331,24 @@ footer.sticky-bottom {
   font-size: 2rem;
 }
 
-// News: fixed badge-column width so rows align across year tables
-// (120px matches the publications/talks badge column)
+// News (about page): fixed badge-column width for the compact table
 .news table th {
   width: 120px;
+}
+
+// News archive: same list layout as publications/talks, so the
+// year heading's right-side slot stays clear on narrow screens
+.news ol.bibliography {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  li {
+    margin-bottom: 1rem;
+    .abbr {
+      height: 2rem;
+      margin-bottom: 0.5rem;
+    }
+  }
 }
 
 // News date badge
