@@ -394,6 +394,25 @@ footer.sticky-bottom {
 
 // CV
 
+.cv-pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--global-theme-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 0.4rem;
+
+  &:hover {
+    color: var(--global-bg-color);
+    background-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+}
+
 .cv {
   margin-bottom: 40px;
 

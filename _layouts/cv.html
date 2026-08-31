@@ -11,7 +11,9 @@ layout: default
     {%- else -%}
       {%- assign cv_pdf_url = page.cv_pdf | prepend: 'assets/pdf/' | relative_url -%}
     {%- endif -%}
-    <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer" style="font-size: 2.5rem;" title="Download CV as PDF"><i class="fas fa-file-pdf"></i></a>
+    <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer"
+      class="cv-pdf-btn" title="Download CV as PDF">
+      <i class="fas fa-file-pdf"></i>Download PDF</a>
     {% endif %}
   </header>
   <article>
