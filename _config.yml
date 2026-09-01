@@ -151,8 +151,7 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
-    permalink: /news/:path/
+    output: false
   projects:
     output: true
     permalink: /projects/:path/
