@@ -28,6 +28,11 @@
           <div class="periodical">
             <em>{{ talk.venue }}</em>{% if talk.year %}, {% if talk.month %}{{ talk.month }} {% endif %}{{ talk.year }}{% endif %}
           </div>
+          {%- if talk.location %}
+          <div class="talk-location">
+            <i class="fas fa-map-marker-alt"></i>{{ talk.location }}
+          </div>
+          {%- endif %}
           {%- if talk.slides or talk.video %}
           <div class="links" style="margin-top: 0.5rem;">
             {%- if talk.slides %}<a class="btn btn-sm z-depth-0" href="{{ talk.slides }}" target="_blank" rel="noopener noreferrer">Slides</a>{%- endif %}
