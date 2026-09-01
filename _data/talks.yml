@@ -27,3 +27,14 @@
   category: academic
   type: invited
   selected: true
+
+- title: "Montage: A Neural Network Language Model-Guided JavaScript Engine Fuzzer"
+  venue: "KAIST AS602 AI Semiconductor Paper Writing"
+  year: 2025
+  month: May
+  date: 2025-05-20
+  location: "Daejeon, South Korea"
+  presenter: Suyoung Lee
+  category: academic
+  type: invited
+  selected: false
