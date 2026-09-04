@@ -197,16 +197,12 @@
               index: i, count: timeline.length
             });
           });
-          // Within one edition, drop deadlines that already passed when a
-          // later one is still open (e.g. multi-cycle or monthly rolling
-          // submissions), and drop TBD entries when dated ones exist.
-          var now = Date.now();
-          var upcoming = built.filter(function (r) {
-            return r.deadline && r.deadline.getTime() > now;
-          });
+          // Within one edition, drop TBD entries when dated ones exist.
+          // Past cycles are kept (styled as past and hidden by the
+          // "Hide past deadlines" filter) so multi-cycle editions such
+          // as USENIX Security always list every cycle.
           var dated = built.filter(function (r) { return r.deadline; });
-          if (upcoming.length) built = upcoming;
-          else if (dated.length) built = dated;
+          if (dated.length) built = dated;
           rows.push.apply(rows, built);
         });
       });
