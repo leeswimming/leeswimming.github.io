@@ -1,0 +1,70 @@
+<!-- _includes/deadlines.html -->
+{%- assign groups = site.data.deadlines.csrankings -%}
+<div class="deadlines">
+  <p>
+    Submission deadlines for the top conferences tracked by
+    <a href="https://csrankings.org/" target="_blank"
+       rel="noopener noreferrer">CSRankings</a>, grouped by research
+    areas. Deadline data is fetched live from
+    <a href="https://ccfddl.com/" target="_blank"
+       rel="noopener noreferrer">ccfddl.com</a> on every visit, so new
+    editions appear as soon as they are added upstream.
+    Times are converted to your local time zone.
+  </p>
+
+  <form class="deadline-filters">
+    <p class="deadline-filter-help">
+      Select areas to filter (otherwise all deadlines are shown).
+    </p>
+    {%- for group in groups %}
+    {%- assign group_slug = group.name | slugify %}
+    <div class="deadline-filter-group">
+      <div class="form-check deadline-filter-parent">
+        <input type="checkbox" class="form-check-input parent-checkbox"
+               id="group-{{ group_slug }}" data-group="{{ group_slug }}">
+        <label class="form-check-label" for="group-{{ group_slug }}">
+          {{ group.name }}
+        </label>
+        <button type="button" class="deadline-toggle"
+                data-group="{{ group_slug }}" aria-expanded="false"
+                aria-controls="areas-{{ group_slug }}"
+                aria-label="Show {{ group.name }} areas">
+          <i class="fas fa-caret-right"></i>
+        </button>
+      </div>
+      <div class="deadline-filter-areas" id="areas-{{ group_slug }}" hidden>
+        {%- for area in group.areas %}
+        <div class="form-check form-check-inline">
+          <input type="checkbox" class="form-check-input area-checkbox"
+                 id="area-{{ area.key }}" data-area="{{ area.key }}"
+                 data-group="{{ group_slug }}">
+          <label class="form-check-label" for="area-{{ area.key }}">
+            {{ area.name }}
+          </label>
+        </div>
+        {%- endfor %}
+      </div>
+    </div>
+    {%- endfor %}
+    <div class="form-check deadline-filter-past">
+      <input type="checkbox" class="form-check-input" id="hide-past">
+      <label class="form-check-label" for="hide-past">
+        Hide past deadlines
+      </label>
+    </div>
+  </form>
+
+  <hr>
+
+  <p class="deadline-status">Loading deadlines from ccfddl.com&hellip;</p>
+  <div class="conf-container"></div>
+</div>
+
+<script id="deadlines-config" type="application/json">
+{{ groups | jsonify }}
+</script>
+<script defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"
+  integrity="sha512-CSBhVREyzHAjAFfBlIBakjoRUKp5h7VSweP0InR/pAJyptH7peuhCsqAI/snV+TwZmXZqoUklpXp6R6wMnYf5Q=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script defer src="{{ '/assets/js/deadlines.js' | relative_url }}"></script>
