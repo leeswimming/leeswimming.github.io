@@ -183,9 +183,9 @@
     - key: crypt
       name: Cryptography
       confs:
-        - name: CRYPTO
+        - name: Crypto
           ccfddl: SC/CRYPTO
-        - name: EUROCRYPT
+        - name: Eurocrypt
           ccfddl: SC/EUROCRYPT
     - key: log
       name: Logic & verification
