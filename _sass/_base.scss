@@ -456,7 +456,13 @@ footer.sticky-bottom {
         width: 75px;
       }
       .cv-badge-period {
-        width: 150px;
+        width: 155px;
+      }
+      // Period badges are 5px wider than the grid column; shift the content by the same amount
+      @media (min-width: 768px) {
+        .cv-content-col {
+          padding-left: 20px; // default column padding (15px) + 5px
+        }
       }
       // Ongoing period ("Oct 2026 -"): start the text where full periods' text starts
       .cv-badge-ongoing {
