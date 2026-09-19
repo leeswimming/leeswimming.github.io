@@ -83,6 +83,13 @@
       line-height: 1.25;
     }
 
+    // Keep the countdown clear of the conference name on wider screens
+    @media (min-width: 576px) {
+      .conf-deadline {
+        padding-left: 4.5rem;
+      }
+    }
+
     hr {
       margin: 0.75rem 0;
     }

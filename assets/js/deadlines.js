@@ -238,7 +238,7 @@
 
     var grid = el('div', 'row');
     var left = el('div', 'col-12 col-sm-6');
-    var right = el('div', 'col-12 col-sm-6');
+    var right = el('div', 'col-12 col-sm-6 conf-deadline');
 
     var title = row.name + (row.year ? ' ' + row.year : '');
     var h2 = el('h2');
