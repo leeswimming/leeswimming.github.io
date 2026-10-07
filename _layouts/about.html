@@ -21,7 +21,8 @@ layout: default
         </header>
 
         <article>
-          {% if page.profile -%}
+          {%- assign profile_address = page.profile.address | default: "" | strip -%}
+          {% if page.profile.image or profile_address != "" -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}

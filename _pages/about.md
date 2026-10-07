@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a postdoctoral researcher at
-[SPIN Research Group, UMass Amherst](https://people.cs.umass.edu/~amir/Research.html),
+[SPIN Research Group](https://people.cs.umass.edu/~amir/Research.html),
 advised by Prof. [Amir Houmansadr](https://people.cs.umass.edu/~amir/index.html).
 
 My primary research goal is to identify emerging attack surfaces across the Web
