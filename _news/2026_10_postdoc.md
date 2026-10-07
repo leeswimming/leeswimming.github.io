@@ -5,4 +5,4 @@ inline: true
 ---
 
 I started as a postdoctoral researcher at
-[SPIN Research Group, UMass Amherst](https://people.cs.umass.edu/~amir/Research.html)!
+[SPIN Research Group](https://people.cs.umass.edu/~amir/Research.html)!
