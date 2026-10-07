@@ -18,11 +18,11 @@
 - title: Work Experience
   type: time_table
   contents:
-    # - title: Postdoctoral Researcher
-    #   institution: SPIN Group, UMass Amherst, Amherst, MA, USA
-    #   year: Oct 2026 - Present
-    #   description:
-    #     - "Advisor: Prof. Amir Houmansadr"
+    - title: Postdoctoral Researcher
+      institution: SPIN Research Group, UMass Amherst, Amherst, MA, US
+      year: Oct 2026 - Present
+      description:
+        - "Advisor: Prof. Amir Houmansadr"
     - title: Postdoctoral Researcher
       institution: WSP Lab, KAIST, Daejeon, South Korea
       year: Mar 2026 - Present

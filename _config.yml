@@ -6,9 +6,9 @@ title: Suyoung Lee # the website title (if blank, full name will be used instead
 first_name: Suyoung
 middle_name:
 last_name: Lee
-email: suyoung.lee@kaist.ac.kr
+email: suyounglee@umass.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Suyoung Lee / 이수영. Postdoctoral researcher @KAIST WSP Lab. AI security, web security, and browser security research.
+  Suyoung Lee / 이수영. Postdoctoral researcher @UMass Amherst. AI security, web security, and browser security research.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.

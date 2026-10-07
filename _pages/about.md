@@ -16,8 +16,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I am a postdoctoral researcher at
-[KAIST WSP Lab](https://wsp-lab.github.io/), advised by
-Prof. [Sooel Son](https://sites.google.com/site/ssonkaist/).
+[SPIN Research Group, UMass Amherst](https://people.cs.umass.edu/~amir/Research.html),
+advised by Prof. [Amir Houmansadr](https://people.cs.umass.edu/~amir/index.html).
 
 My primary research goal is to identify emerging attack surfaces across the Web
 and AI ecosystems and to develop principled, deployable defenses. My research
@@ -25,7 +25,7 @@ spans multiple layers of these ecosystems, from AI models to AI-integrated
 systems.
 
 I'm always happy to hear from you. For all inquiries, you can reach me at
-[suyoung.lee@kaist.ac.kr](mailto:suyoung.lee@kaist.ac.kr).
+[suyounglee@umass.edu](mailto:suyounglee@umass.edu).
 
 <h5 class="interest-heading">Research Interests</h5>
 
