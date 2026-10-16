@@ -19,9 +19,8 @@ I am a postdoctoral researcher in the
 [SPIN Research Group](https://people.cs.umass.edu/~amir/Research.html)
 at UMass Amherst, advised by
 Prof. [Amir Houmansadr](https://people.cs.umass.edu/~amir/index.html).
-I received my Ph.D. from [KAIST WSP Lab](https://wsp-lab.github.io/) in 2026,
-where I was advised by
-Prof. [Sooel Son](https://sites.google.com/site/ssonkaist/home).
+Before joining UMass Amherst, I received my Ph.D. from KAIST, where I was
+advised by Prof. [Sooel Son](https://sites.google.com/site/ssonkaist/home).
 
 My primary research goal is to identify emerging attack surfaces across the Web
 and AI ecosystems and to develop principled, deployable defenses. My research
