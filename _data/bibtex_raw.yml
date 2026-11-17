@@ -1,5 +1,14 @@
 # Exact bibtex text shown by the "Bib" button, keyed by entry key in _bibliography/papers.bib.
 # Keeps the original clean bibtex (no theme fields, no equal-contribution asterisks).
+"lee:ccs:2026": |
+  @INPROCEEDINGS{lee:ccs:2026,
+    author = {Hyunjoon Lee and Suyoung Lee and Heiko Kiesel and Sooel Son},
+    title = {Overloading Ad Blockers: Exploiting Filtering Logic for Selective Denial of Service},
+    booktitle = {Proceedings of the {ACM} Conference on Computer and Communications Security},
+    pages = {5269--5283},
+    year = 2026
+  }
+
 "lee:oakland:2026": |
   @INPROCEEDINGS{lee:oakland:2026,
     author = {Suyoung Lee and Seongho Keum and Changoo Lee and Dongwon Shin and Sanghyun Hong and Byoungyoung Lee and Sooel Son},
