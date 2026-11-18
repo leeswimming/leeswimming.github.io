@@ -709,8 +709,9 @@ footer.sticky-bottom {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
+          min-width: 3.3rem;
+          padding-left: 0.6rem;
+          padding-right: 0.6rem;
           padding-top: 0.25rem;
           padding-bottom: 0.25rem;
           &:hover {
