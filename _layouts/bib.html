@@ -126,6 +126,19 @@
           {{ entry.note | strip }}
         </div>
         {%- endif %}
+        {%- if entry.award %}
+        <div class="award">
+          {%- if entry.award_url %}
+          <a class="award-badge" href="{{ entry.award_url }}">
+            <i class="fas fa-trophy"></i>{{ entry.award }}
+          </a>
+          {%- else %}
+          <span class="award-badge">
+            <i class="fas fa-trophy"></i>{{ entry.award }}
+          </span>
+          {%- endif %}
+        </div>
+        {%- endif %}
 
           <!-- Links/Buttons -->
           <div class="links">

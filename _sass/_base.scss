@@ -682,6 +682,32 @@ footer.sticky-bottom {
       .title {
         font-weight: bolder;
       }
+      .award {
+        margin: 0.3rem 0 0.35rem;
+      }
+      .award-badge {
+        display: inline-block;
+        padding: 0.1rem 0.7rem;
+        border: 1px solid #d4a017;
+        border-radius: 1rem;
+        background: linear-gradient(
+          100deg,
+          rgba(212, 160, 23, 0.1),
+          rgba(212, 160, 23, 0.28)
+        );
+        color: var(--global-text-color);
+        font-size: 0.85rem;
+        font-weight: 600;
+        i {
+          color: #d4a017;
+          margin-right: 0.4rem;
+        }
+      }
+      a.award-badge:hover {
+        text-decoration: none;
+        color: var(--global-text-color);
+        box-shadow: 0 0 0.5rem rgba(212, 160, 23, 0.55);
+      }
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);

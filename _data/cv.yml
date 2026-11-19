@@ -32,6 +32,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - Distinguished Artifact Award, ACM CCS 2026
     - year: 2019
       items:
         - MSRC's 2018-2019 Most Valuable Security Researchers
